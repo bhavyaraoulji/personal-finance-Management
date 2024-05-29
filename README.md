@@ -1,33 +1,24 @@
-# Personal-finance-Management
-Created a Personal Finance Management web app using Vue.js for the front end and Python for the back end. This application will help users track their income, expenses, and savings, providing them with insights into their financial health.
- Users will be able to visualize their financial data through interactive charts and reports.
+# frontend
 
-Features of the App:
-# User Authentication:
-Sign up, login, and logout functionality.
-Secure password handling.
-Dashboard:
+## Project setup
+```
+npm install
+```
 
-# Overview of current financial status.
-Summary of income, expenses, and savings.
-Income and Expense Tracking:
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# Add, edit, and delete income and expense entries.
-Categorize transactions (e.g., salary, groceries, entertainment).
-Budget Management:
+### Compiles and minifies for production
+```
+npm run build
+```
 
-# Set monthly/annual budgets for different categories.
-Compare actual spending against the budget.
-Reports and Analytics:
+### Lints and fixes files
+```
+npm run lint
+```
 
-# Interactive charts for income, expenses, and savings over time.
-Pie charts showing spending distribution by category.
-Trend analysis and financial forecasting.
-Notifications:
-
-# Alerts for budget overspending.
-**Reminders for upcoming bills or financial goals.
-Export Data:
-
-Export financial data to CSV or PDF.
-
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
